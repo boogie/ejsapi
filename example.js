@@ -1,4 +1,2 @@
 
-$(document).on('apiLoaded', function() {
-    console.log('ONLOAD');
-});
+API.helloworld();

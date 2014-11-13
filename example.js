@@ -1,6 +1,6 @@
 
-API.VCMS.on('sectionSelected', function(section) {
+SuiteAPI.VCMS.on('sectionSelected', function(section) {
   console.log(section);
 });
 
-console.log(API.pageID);
+console.log(SuiteAPI.pageID);

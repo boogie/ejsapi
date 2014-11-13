@@ -1,5 +1,5 @@
 
-API.on('sectionSelected', function(section) {
+API.VCMS.on('sectionSelected', function(section) {
   console.log(section);
 });
 

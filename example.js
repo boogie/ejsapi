@@ -11,6 +11,7 @@ SuiteAPI.onPage('email-campaigns', function() {
 
   SuiteAPI.DOM.addButton({
     'block': 'create',
+    'icon': 'http://forums.imore.com/images/smilies/imore/beer.png',
     'title': 'Hello World',
     'onclick': function() { alert('ALERT'); }
   });
